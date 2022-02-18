@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERADOR DE PARCIAL</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+    <div id="TITLE">
+        <h1>GERADOR DE PARCIAL</h1>
+    </div>
+    <nav>
+        <div>
+            <img id="icon" src="imgs/paperplane.png" alt="">
+        </div>
+        <ul>
+            <li class="active"><a href="CARTAO-TOKEN.html">Token / cartão</a></li>
+            <li><a href="BIRD-ID.html">Bird-id</a></li>
+            <li ><a  href="A1.html">A1</a></li> 
+            <li><a href="SSL.html">SSL</a></li>
+        </ul>
+        
+    </nav>
+
+    <div id="gerar">
+        <div>
+            <button id="copiar" class="copiado"> copiar </button>
+            <br>
+           <input type="button" value="Limpar" id="LIMPAR" onclick="limpar()">
+        </div>
+
+        
+        
+        <textarea  disabled id="resultado" type="text" ></textarea>
+        <input type="button" id="btnExibir" value="◀" />
+        <select id="ddlCores" multiple="multiple">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        <input type="button" value="Inserir" id="Inserir" onclick="Inserir()">
+        <textarea id="manual"></textarea>
+        <br>
+    </div>
+    <footer>
+        <p>© 2022 Registro pronto - Faciliar e inovar Produzido Por : Back-end:Athila - Front-end :Luciano</p>
+    </footer>
+</body>
+    <script src="script.js"></script>
+</body>
+
+</html>
