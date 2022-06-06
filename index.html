@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GERADOR DE PARCIAL</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+    <div id="TITLE">
+        <h1>GERADOR DE PARCIAL</h1>
+    </div>
+    <nav>
+        <div>
+            <img id="icon" src="imgs/paperplane.png" alt="">
+        </div>
+        <ul>
+            <li><a href="CARTAO-TOKEN.html">Token / cartão</a></li>
+            <li><a href="BIRD-ID.html">Bird-id</a></li>
+            <li class="active"><a  href="A1.html">A1</a></li> 
+            <li><a href="SSL.html">SSL</a></li>
+        </ul>
+        
+    </nav>
+
+    <div id="gerar">
+        <div>
+            <button id="copiar" class="copiado"> copiar </button>
+            <br>
+           <input type="button" value="Limpar" id="LIMPAR" onclick="limpar()">
+        </div>
+
+        
+        
+        <textarea  disabled id="resultado" type="text" ></textarea>
+        <input type="button" id="btnExibir" value="◀" />
+        <select id="ddlCores" multiple="multiple">
+            <option value="CLIENTE CERTIFICADO A1">CLIENTE CERTIFICADO A1</option>
+            <option value="FEITO ACESSO REMOTO">FEITO ACESSO REMOTO</option>
+            <option value="ATENDIMENTO FINALIZADO">ATENDIMENTO FINALIZADO</option>
+            <option value="CERTIFICADO TESTADO TUDO FUNCIONANDO">CERTIFICADO TESTADO TUDO FUNCIONANDO</option>
+            <option value="ABERTO EMISSOR COM SUCESSO">ABERTO EMISSOR COM SUCESSO</option>
+            <option value="CERTIFICADO EMITIDO COM SUCESSO">CERTIFICADO EMITIDO COM SUCESSO</option>
+            <option value="SENHA DE EMISSÃO INCORRETA">SENHA DE EMISSÃO INCORRETA</option>
+            <option value="INSTALADO JAVA NA MAQUINA">INSTALADO JAVA NA MAQUINA</option>
+            <option value="ERRO NA ABERTURA DO EMISSOR">ERRO NA ABERTURA DO EMISSOR</option>
+            <option value="CERTIFICADO AINDA NÃO FOI APROVADO PARA EMISSÃO">CERTIFICADO AINDA NÃO FOI APROVADO PARA
+                EMISSÃO</option>
+            <option value="FOI INFORMADO PARA ENTRAR EM CONTATO COM QUEM VENDEU O CERTIFICADO">FOI INFORMADO PARA ENTRAR
+                EM CONTATO COM QUEM VENDEU O CERTIFICADO</option>
+            <option value="CLIENTE NÃO LEMBRA SENHA DE EMISSÃO DO CERTIFICADO">CLIENTE NÃO LEMBRA SENHA DE EMISSÃO DO
+                CERTIFICADO</option>
+            <option value="CLIENTE NÃO RECEBEU USUARIO DE EMISSÃO DO CERTIFICADO">CLIENTE NÃO RECEBEU USUARIO DE EMISSÃO
+                DO CERTIFICADO</option>
+            <option value="CLIENTE PERDE O ARQUIVO DO CERTIFICADO">CLIENTE PERDE O ARQUIVO DO CERTIFICADO</option>
+            <option value="CERTIFICADO RECUPERADO APARTIR DO ARQUIVO .PEM">CERTIFICADO RECUPERADO APARTIR DO ARQUIVO
+                .PEM</option>
+            <option value="ERRO NA GERAÇÃO DO CERTIFICADO, CLIENTE COM BLOQUEIO DE REDE">ERRO NA GERAÇÃO DO CERTIFICADO,
+                CLIENTE COM BLOQUEIO DE REDE</option>
+            <option value="CLIENTE NÃO ESTAVA COM COMPUTADOR, FOI INFORMADO PARA RETORNAR QUANTO TIVER DISPONIVEL">
+                CLIENTE NÃO ESTAVA COM COMPUTADOR, FOI INFORMADO PARA RETORNAR QUANTO TIVER DISPONIVEL</option>
+            <option value="ANTVIRUS DESATIVADO CERTIFICADO GERADO COM SUCESSO">ANTVIRUS DESATIVADO CERTIFICADO GERADO
+                COM SUCESSO</option>
+            <option value="CLIENTE TROCA DE REDE CERTIFICADO GERADO COM SUCESSO">CLIENTE TROCA DE REDE CERTIFICADO
+                GERADO COM SUCESSO</option>
+            <option value="CLIENTE ESQUECE SENHA DO CERTIFICADO ">CLIENTE ESQUECE SENHA DO CERTIFICADO </option>
+            <option
+                value="FOI VERIFICADO QUE O CERTIFICADO FOI EMITIDO EM OUTRA MAQUINA, FOI INFORMADO PARA ENTRAR NO COMPUTADO QUE FOI EMITIDO O CERTIFICADO">
+                FOI VERIFICADO QUE O CERTIFICADO FOI EMITIDO EM OUTRA MAQUINA, FOI INFORMADO PARA ENTRAR NO COMPUTADO
+                QUE FOI EMITIDO O CERTIFICADO</option>
+            <option
+                value="FEITO ALTERAÇÃO DA SENHA DO CERTIFICADO PELO EMISSOR , COM ARQUIVO.PEM E USUARIO SENHA DE EMISSÃO">
+                FEITO ALTERAÇÃO DA SENHA DO CERTIFICADO PELO EMISSOR , COM ARQUIVO.PEM E USUARIO SENHA DE EMISSÃO
+            </option>
+            <option
+                value="FEITO ALTERAÇÃO DA SENHA DO CERTIFICADO COM A EXPORTAÇÃO DO CERTICADO PELA OPÇÕES DE INTERNET">
+                FEITO ALTERAÇÃO DA SENHA DO CERTIFICADO COM A EXPORTAÇÃO DO CERTICADO PELA OPÇÕES DE INTERNET</option>
+            <option value="CLIENTE COM DUVIDAS PARA ASSINAR DOCUMENTO">CLIENTE COM DUVIDAS PARA ASSINAR DOCUMENTO
+            </option>
+            <option value="PDF BLOQUEADO PARA ASSINATURAS">PDF BLOQUEADO PARA ASSINATURAS</option>
+            <option value="DOCUMENTO ASSINADO COM SUCESSO">DOCUMENTO ASSINADO COM SUCESSO</option>
+
+
+
+
+        </select>
+        <input type="button" value="Inserir" id="Inserir" onclick="Inserir()">
+        <textarea id="manual"></textarea>
+        <br>
+    </div>
+    <footer>
+        <p>© 2022 Registro pronto - Faciliar e inovar Produzido Por : Back-end:Athila - Front-end :Luciano</p>
+    </footer>
+</body>
+    <script src="script.js"></script>
+</body>
+
+</html>
